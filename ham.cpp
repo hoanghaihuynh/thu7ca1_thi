@@ -8,5 +8,8 @@ int main() {
 	if (n % 2 != 0) {
 		cout << n << " la so le";
 	}
+	if(n % 2 == 0){
+		cout << n << " la so chan";
+	}
 	return 0;
 }
